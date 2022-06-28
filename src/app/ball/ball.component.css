@@ -1,0 +1,21 @@
+.ball {
+  border: red;
+  border-radius: 50%;
+  background-color: red;
+  height: 5rem;
+  width: 5rem;
+  position: absolute;
+  bottom: 50vh;
+  z-index: 2;
+}
+
+.shine {
+  border: white;
+  border-radius: 50%;
+  background-color: white;
+  height: 0.5rem;
+  width: 0.5rem;
+  position: relative;
+  top: 1rem;
+  left: 3.5rem;
+}
