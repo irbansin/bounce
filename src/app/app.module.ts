@@ -7,9 +7,10 @@ import { HelloComponent } from './hello.component';
 
 import { LoginModule } from './login/login.module';
 import { GameModule } from './game/game.module';
+import { AppRoutingModule } from './app-router.module';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, LoginModule, GameModule],
+  imports: [BrowserModule, FormsModule, AppRoutingModule, LoginModule, GameModule],
   declarations: [AppComponent, HelloComponent],
   bootstrap: [AppComponent],
 })
