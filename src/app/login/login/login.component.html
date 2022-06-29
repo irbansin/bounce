@@ -1,0 +1,5 @@
+<form [formGroup] = "loginForm" (ngSubmit)='submitForm($event)'> 
+  <input formContolName = 'username' type='text'>
+  <input formContrilName = 'password' type='password'>
+  <button type="submit" [disabled]="!loginForm.valid">Submit</button>
+</form>
